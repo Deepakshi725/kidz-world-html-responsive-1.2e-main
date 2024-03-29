@@ -1,0 +1,132 @@
+*{
+    margin: 1px;;
+}
+/*---------Navbar------------*/
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+}
+.nav-container img{
+    height: 30px;
+}
+.kw{
+    padding-left: 5%;
+}
+.logo-cart{
+    padding-right: 5%;
+}
+.navbar-background{
+    background-image: url("assets/kw-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 400px;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 2em;
+    color:white;
+}
+h6{
+    font-family:cursive
+}
+
+/*------------Book section------------*/
+.heading-books{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding-top: 6%;
+    padding-left: 5%;
+}
+.book-container{
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.book-container img{
+    height:250px;
+    width: 200px;
+}
+.name{
+    padding-top:10px;
+    font-weight: bold;
+}
+.author{
+    padding-top: 10px;
+    color:grey;
+}
+.price{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.price-container{
+    display: flex;
+}
+.add{
+    background-color: rgba(0, 55, 255, 0.612);
+    background: 1px solid black;
+    border-radius: 5px;
+    padding:6px;
+    color:white;
+    margin-left: 40%;
+    
+}
+.add img{
+    height:17px;
+    width:20px;
+}
+
+/*------------Game section-----------*/
+
+.game-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.game-container .image1{
+    height:300px;
+    width: 300px;
+}
+
+.add-game{
+    background-color: rgba(0, 55, 255, 0.612);
+    background: 1px solid black;
+    border-radius: 5px;
+    padding:6px;
+    color:white;
+    margin-left: 60%;
+    
+}
+.add-game img{
+    height:17px;
+    width:20px;
+}
+
+/*----------Footer-----------*/
+
+footer{
+    padding-top: 8%;
+}
+.footer-background{
+    background-color: black;
+    height:100px;
+    color:white;
+    padding:40px;
+    display: flex;
+    justify-content: space-between;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.content{
+    text-align: right;
+}
+footer img{
+    height:100px;
+    width:100px;
+    background-color: white;
+    border-radius: 50px;
+    
+}
+.text-image{
+  padding-left: 20px;
+}
